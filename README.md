@@ -4,6 +4,7 @@
 This project investigates the effect of different data-driven loss functions on the machine teaching problem of teaching a Double-robot arm a specific skill. It takes the skill parameters and the system variables as input and returns the mean of loss by each risk metric and the mean and standard deviation of the parameter loss associated with all the risk metrics. The process starts by setting up the system and skill parameters. A zero-matrices called General Loss, and Parameter Loss with dimensions of Trials x 11 is initialized to store the results of each trial. Each column of the 11 columns contains the risk loss, and parameter loss associated with each one of the risk metrics.
 
 # How to use:
+The main code to run is Experiment2.m
 In the first of the code, the skill, which is defined as different goals of the end-effector, is set as the following:
 
 % Set the goal joint angles, the target position
