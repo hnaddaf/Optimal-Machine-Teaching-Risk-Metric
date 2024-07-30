@@ -7,6 +7,7 @@ In this project there is two experiments: (1) for single-link robot arm (2) for 
 This project investigates the effect of different data-driven loss functions on the machine teaching problem of teaching a single-robot arm a specific skill. It takes the skill parameters and the system variables as input and returns the mean of loss by each risk metric and the mean and standard deviation of the parameter loss associated with all the risk metrics. The process starts by setting up the system and skill parameters. A zero-matrices called General Loss, and Parameter Loss with dimensions of Trials x 11 is initialized to store the results of each trial. Each column of the 11 columns contains the risk loss, and parameter loss associated with each one of the risk metrics.
 
 # How to use:
+Run Experiment1.m
 In the first of the code the skill parameters for diffrent skills are set as the following:
 
 %Set the skill parameters 
@@ -19,7 +20,7 @@ kis=[ 20; 4000; 20; 800; 220; 320; 120];
 
 You can change these PID gains to any policy you prefer. The code then measures the effect of each risk metric and returns the results in an Excel sheets:
 
-1_ experminet1_PARAMETER_LOSS_new.xlsx:
+1_ experiment1_PARAMETER_LOSS_new.xlsx:
 
 This sheet contains information on the parameter loss for each data-driven risk metric. Parameter loss is the difference between the defined skill parameter and the parameters learned from the data. The data has been selected to minimize the error for each risk metric.
 
