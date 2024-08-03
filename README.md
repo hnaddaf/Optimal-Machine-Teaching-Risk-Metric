@@ -1,5 +1,5 @@
 # Optimal-Machine-Teaching-Risk-Metric
-In this project there is two experiments: (1) for single-link robot arm (2) for double-link robot arm.
+In this project there is three experiments: (1) for single-link robot arm (2) for double-link robot arm (3) Validation Experiment.
 
 # Machine-Teaching-of-a-single-link-robot
 
