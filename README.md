@@ -72,3 +72,15 @@ Trials: The calculations are based on 1000 trials.
 
 # Requirements:
 MATLAB
+
+# Validation Experiment
+
+# Overview:
+This part validate the methodlodgy by applying it to the optemal data-driven machine teaching for PD controller policy. 
+
+# How to use:
+Run ValidationExperiment.m
+The code then measures parameter loss and optimal data-driven loss and returns the results in an Excel sheets:
+
+# Requirements:
+MATLAB
